@@ -14,4 +14,3 @@ module "id" {
 output  "id" {
   value = module.id.server_id
 }
-

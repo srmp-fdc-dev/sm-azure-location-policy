@@ -38,6 +38,11 @@ jobs:
         env:
           TF_API_TOKEN: ${{ secrets.TF_CLOUD_API_TOKEN }}
           WORKSPACE_NAME: ${{ github.event.repository.name }}
+          tenant_id: ${{ secrets.TENANT_ID }}
+          client_id: ${{ secrets.CLIENT_ID }}
+          client_secret: ${{ secrets.CLIENT_SECRET }}
+          subscription_id: ${{ secrets.SUBSCRIPTION_ID }}
+          allowed_locations: ${{ secrets.ALLOWED_LOCATIONS }}
 
       - name: Create Remote Backend Configuration
         run: |
