@@ -6,11 +6,11 @@ terraform {
   }
 }
 
-module "id" {
+module "policy" {
   source = "../"
-  ami_id  = var.test_id
-}
-
-output  "id" {
-  value = module.id.server_id
+  tenant_id = var.tenant_id
+  client_id = var.client_id
+  client_secret = var.client_secret
+  subscription_id = var.subscription_id
+  allowed_locations = var.allowed_locations
 }
