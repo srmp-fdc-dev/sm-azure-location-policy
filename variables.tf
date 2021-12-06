@@ -21,4 +21,5 @@ variable "allowed_locations" {
         "west europe",
         "north europe"
         ]
+    description = "Azure Region (e.g. 'west europe')"
 }
