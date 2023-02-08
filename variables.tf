@@ -17,9 +17,5 @@ variable "subscription_id" {
 }
 variable "allowed_locations" {
     type = list(string)
-    default = [
-        "west europe",
-        "north europe"
-        ]
-    description = "Azure Region (e.g. 'west europe')"
+    description = "Azure Region (e.g. 'west europe', 'north europe')"
 }
