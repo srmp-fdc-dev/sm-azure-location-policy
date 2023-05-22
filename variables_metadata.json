@@ -2,11 +2,11 @@
   "allowed_locations": {
     "type": "list(enum(string))",
     "enumValues": [
-      "north europe",
-      "west europe",
-      "north america",
-      "Sofia",
-      "New Jersy"
+      "North Europe",
+      "West Europe ",
+      "Asia",
+      "United Kingdom",
+      "Germany"
     ]
   }
 }
